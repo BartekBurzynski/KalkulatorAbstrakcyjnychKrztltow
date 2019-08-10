@@ -10,7 +10,7 @@ public class Main {
 
         Ractangle ractangle = new Ractangle(6,3);
 
-
+       Line2D line = new Line2D(2,3,7,9);
 
         ShapeCalculator shapeCalculator = new ShapeCalculator();
         LineCalc lineCalc = new LineCalc();
@@ -19,7 +19,7 @@ public class Main {
         System.out.println(shapeCalculator.circleArea(cirlce));
         System.out.println(shapeCalculator.cubeVolume(cube));
         System.out.println(shapeCalculator.rectangleArea(ractangle));
-        System.out.println(lineCalc.lineLength(lineCalc.line2D));
+        System.out.println(lineCalc.lineLength(line));
 
     }
     }

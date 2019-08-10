@@ -4,6 +4,9 @@ public class Line2D {
     private double y1;
     private double y2;
 
+    public Line2D() {
+    }
+
     public Line2D(double x1, double x2, double y1, double y2) {
         this.x1 = x1;
         this.x2 = x2;
